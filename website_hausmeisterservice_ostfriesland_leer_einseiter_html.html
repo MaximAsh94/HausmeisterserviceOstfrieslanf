@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hausmeisterservice Ostfriesland | Leer & Umgebung</title>
+  <meta name="description" content="Zuverlässiger Hausmeisterservice in Leer und Ostfriesland: Gartenpflege, Winterdienst, Kleinreparaturen, Treppenhausreinigung, Objektbetreuung. Schnell, fair, regional." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Hausmeisterservice Ostfriesland" />
+  <meta property="og:description" content="Ihr zuverlässiger Partner für Objektbetreuung in Leer & Ostfriesland." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a3' /><path d='M15 70 L50 35 L85 70' stroke='white' stroke-width='10' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <style>
+    :root{
+      --bg:#0b132b;        /* dunkelblau */
+      --fg:#f6f7fb;        /* fast weiß */
+      --muted:#c9d1e0;     /* hellgrau */
+      --brand:#22c55e;     /* grün */
+      --ink:#0f172a;       /* tiefblau */
+      --card:#ffffff;      /* weiß */
+      --shadow:0 10px 25px rgba(2,6,23,.12);
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Arial,sans-serif;color:var(--ink);scroll-behavior:smooth}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:0 18px}
+    header{
+      background:linear-gradient(135deg,var(--bg),#1b2548 55%);
+      color:var(--fg);
+    }
+    .topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 0;font-size:14px}
+    .topbar a{color:var(--fg);opacity:.9}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:46px 0 64px}
+    .hero h1{font-size:clamp(30px,3.5vw,48px);line-height:1.1;margin:0 0 14px}
+    .hero p{font-size:18px;color:#e6e9f2;margin:0 0 22px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:999px;border:2px solid transparent;background:var(--brand);color:#053;box-shadow:var(--shadow);font-weight:700}
+    .btn.secondary{background:transparent;border-color:#3b82f6;color:#e6e9f2}
+    .badge{display:inline-block;background:#16a34a1a;color:#86efac;border:1px solid #16a34a60;border-radius:999px;padding:6px 10px;font-size:12px;margin-bottom:10px}
+    .hero-card{background:var(--card);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+    .hero-card ul{margin:0;padding:0 0 0 18px}
+    .hero-card li{margin:8px 0}
+
+    section{padding:56px 0}
+    h2{font-size:clamp(22px,2.5vw,34px);margin:0 0 18px}
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+    .muted{color:#475569}
+    .service-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+    .service{background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;padding:16px}
+
+    .prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+    .price{border:1px solid #e5e7eb;border-radius:16px;padding:20px;background:#fff}
+    .price h3{margin:0 0 6px}
+    .price .tag{display:inline-block;background:#f1f5f9;border:1px solid #e2e8f0;border-radius:999px;padding:4px 10px;font-size:12px;margin-bottom:10px}
+    .price .big{font-size:34px;font-weight:800;margin:10px 0}
+
+    .contact{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}
+    form{display:grid;gap:10px}
+    input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #dbe3ee;font:inherit}
+    textarea{min-height:120px}
+    .notice{font-size:12px;color:#475569}
+
+    footer{background:#0f172a;color:#cbd5e1}
+    footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    footer a{color:#cbd5e1}
+    .legal{border-top:1px solid #334155;margin-top:18px;padding-top:18px;font-size:13px}
+
+    /* responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .contact{grid-template-columns:1fr}
+      .grid.cols-3{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:600px){
+      .grid.cols-3,.grid.cols-2{grid-template-columns:1fr}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HomeAndConstructionBusiness",
+    "name":"Hausmeisterservice Ostfriesland",
+    "image":"",
+    "url":"",
+    "telephone":"+49 0000 000000",
+    "email":"info@hausmeister-ostfriesland.de",
+    "areaServed":"Leer, Ostfriesland, Niedersachsen",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Musterstraße 1",
+      "postalCode":"26789",
+      "addressLocality":"Leer (Ostfriesland)",
+      "addressRegion":"NI",
+      "addressCountry":"DE"
+    },
+    "openingHours":"Mo-Fr 08:00-18:00",
+    "priceRange":"€€",
+    "sameAs":[]
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="topbar" aria-label="Kontaktzeile">
+        <div>
+          <strong>Hausmeisterservice Ostfriesland</strong>
+        </div>
+        <nav aria-label="Schnellzugriff">
+          <a href="#leistungen">Leistungen</a> ·
+          <a href="#preise">Preise</a> ·
+          <a href="#kontakt">Kontakt</a> ·
+          <a href="#impressum">Impressum</a>
+        </nav>
+      </div>
+      <div class="hero">
+        <div>
+          <span class="badge">Leer & Ostfriesland</span>
+          <h1>Ihr zuverlässiger <span style="color:var(--brand)">Hausmeisterservice</span> für Haus & Hof</h1>
+          <p>Gartenpflege, Treppenhausreinigung, Kleinreparaturen, Winterdienst und komplette Objektbetreuung. Faire Preise, schnelle Hilfe – persönlich aus der Region.</p>
+          <div class="cta">
+            <a class="btn" href="tel:+490000000000" aria-label="Jetzt anrufen">📞 Jetzt anrufen</a>
+            <a class="btn secondary" href="#kontakt" aria-label="Angebot anfragen">✉️ Angebot anfragen</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Schnellübersicht Leistungen">
+          <h3 style="margin:0 0 8px">Schnell verfügbar für:</h3>
+          <ul>
+            <li>✔️ Rasenmähen & Hecken schneiden</li>
+            <li>✔️ Entrümpelung & Sperrmüllhilfe</li>
+            <li>✔️ Kleinreparaturen im & am Haus</li>
+            <li>✔️ Winterdienst & Streuen</li>
+            <li>✔️ Leerstandskontrollen & Objektservice</li>
+          </ul>
+          <p class="muted" style="margin-top:12px">Notfall? <a href="tel:+490000000000">+49 0000 000000</a></p>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <!-- Leistungen -->
+  <section id="leistungen" class="container">
+    <h2>Leistungen</h2>
+    <p class="muted">Modular buchbar – für Eigentümer, Hausverwaltungen, Unternehmen und Privat.</p>
+    <div class="service-list" role="list">
+      <div class="service" role="listitem">
+        <h3>Garten & Außenanlagen</h3>
+        <p>Rasen- & Heckenschnitt, Beetpflege, Laubarbeiten, Unkrautentfernung, Grünabfall-Entsorgung.</p>
+      </div>
+      <div class="service" role="listitem">
+        <h3>Gebäudereinigung</h3>
+        <p>Treppenhaus, Keller, Flure, Fenster – laufend oder einmalig.</p>
+      </div>
+      <div class="service" role="listitem">
+        <h3>Kleinreparaturen</h3>
+        <p>Montagearbeiten, Austausch von Leuchten, Silikonfugen ausbessern, Möbelaufbau u.v.m.</p>
+      </div>
+      <div class="service" role="listitem">
+        <h3>Winterdienst</h3>
+        <p>Räumen & Streuen von Gehwegen und Hofbereichen gemäß Verkehrssicherungspflicht.</p>
+      </div>
+      <div class="service" role="listitem">
+        <h3>Objektbetreuung</h3>
+        <p>Regelmäßige Kontrollen, Zählerstände, Briefkastenleerung – ideal bei Leerstand.</p>
+      </div>
+      <div class="service" role="listitem">
+        <h3>Entsorgung & Hilfe</h3>
+        <p>Entrümpelung, Sperrmüll- und Kleintransporte im Rahmen des zulässigen Umfangs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preise / Pakete -->
+  <section id="preise" class="container">
+    <h2>Preise (Richtwerte)</h2>
+    <p class="muted">Alle Preise verstehen sich als unverbindliche Orientierung und können je nach Aufwand variieren. Verbindliches Angebot auf Anfrage.</p>
+    <div class="prices">
+      <div class="price">
+        <span class="tag">Beliebt</span>
+        <h3>Stundenpaket</h3>
+        <div class="big">ab 39€ / Std.</div>
+        <p class="muted">inkl. Anfahrt im Stadtgebiet Leer, zzgl. Material.</p>
+      </div>
+      <div class="price">
+        <span class="tag">Pauschal</span>
+        <h3>Gartenpflege</h3>
+        <div class="big">ab 99€</div>
+        <p class="muted">z.B. Rasenschnitt (bis 300 m²) & Kanten, inkl. Entsorgung.</p>
+      </div>
+      <div class="price">
+        <span class="tag">Dauerhaft</span>
+        <h3>Objektservice</h3>
+        <div class="big">individuell</div>
+        <p class="muted">Monatliche Betreuungspauschale nach Objektgröße.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Einsatzgebiet / Vorteile -->
+  <section class="container">
+    <div class="grid cols-2">
+      <div class="card">
+        <h2>Einsatzgebiet</h2>
+        <p>Leer (Ostfriesland) und Umgebung: Nortmoor, Moormerland, Weener, Rhauderfehn, Jemgum, Papenburg u.a.</p>
+        <p class="muted">Auf Anfrage auch weitere Orte in Ostfriesland.</p>
+      </div>
+      <div class="card">
+        <h2>Warum wir?</h2>
+        <ul>
+          <li>✅ Regional & persönlich erreichbar</li>
+          <li>✅ Zuverlässig & pünktlich</li>
+          <li>✅ Transparent & fair bepreist</li>
+          <li>✅ Flexibel: einmalig oder dauerhaft</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="kontakt" class="container">
+    <h2>Kontakt & Angebot</h2>
+    <div class="contact">
+      <form action="mailto:info@hausmeister-ostfriesland.de" method="post" enctype="text/plain" aria-label="Kontaktformular">
+        <label>
+          Name*<br>
+          <input name="name" required placeholder="Max Mustermann" aria-required="true" />
+        </label>
+        <label>
+          E-Mail*
+          <input type="email" name="email" required placeholder="max@example.de" aria-required="true" />
+        </label>
+        <label>
+          Telefon
+          <input type="tel" name="telefon" placeholder="z.B. 0491 123456" />
+        </label>
+        <label>
+          Nachricht*
+          <textarea name="nachricht" required placeholder="Welche Leistung wird benötigt? Adresse, Terminwunsch…"></textarea>
+        </label>
+        <label style="font-size:14px"><input type="checkbox" required aria-required="true" /> Ich habe die <a href="#datenschutz">Datenschutzerklärung</a> gelesen.</label>
+        <button class="btn" type="submit">Anfrage senden</button>
+        <p class="notice">Alternativ: Telefon <a href="tel:+490000000000">+49 0000 000000</a> · WhatsApp <a href="https://wa.me/490000000000" target="_blank" rel="noopener">Chat starten</a></p>
+      </form>
+      <div class="card">
+        <h3>Direkt erreichbar</h3>
+        <p><strong>Hausmeisterservice Ostfriesland</strong><br>Musterstraße 1 · 26789 Leer (Ostfriesland)</p>
+        <p>📞 <a href="tel:+490000000000">+49 0000 000000</a><br>✉️ <a href="mailto:info@hausmeister-ostfriesland.de">info@hausmeister-ostfriesland.de</a></p>
+        <iframe title="Karte Leer" src="https://www.google.com/maps?q=Leer%20Ostfriesland&output=embed" style="width:100%;height:220px;border:0;border-radius:12px"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impressum & Datenschutz (einfach gehalten, Platzhalter) -->
+  <footer id="impressum">
+    <div class="container">
+      <div class="cols">
+        <div>
+          <h3>Impressum</h3>
+          <p><strong>Verantwortlich i.S.d. § 5 TMG</strong><br>
+          Vorname Nachname (Einzelunternehmen)<br>
+          Hausmeisterservice Ostfriesland<br>
+          Musterstraße 1 · 26789 Leer (Ostfriesland)<br>
+          Telefon: +49 0000 000000 · E-Mail: info@hausmeister-ostfriesland.de</p>
+          <p>USt-IdNr.: DE000000000 (falls vorhanden)</p>
+          <p>Berufsbezeichnung: Hausmeisterservice (Deutschland). Zuständige Behörde: Gewerbeamt Leer.</p>
+          <p>Hinweis nach § 36 VSBG: Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+        </div>
+        <div id="datenschutz">
+          <h3>Datenschutzerklärung (Kurzfassung)</h3>
+          <p>Wir verarbeiten personenbezogene Daten (Name, Kontaktdaten, Anfrageinhalte) ausschließlich zur Bearbeitung Ihrer Anfrage und – bei Beauftragung – zur Vertragsabwicklung. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.</p>
+          <p>Eine Weitergabe an Dritte erfolgt nur, soweit dies zur Leistungserbringung erforderlich ist (z. B. Entsorgungspartner) oder rechtliche Pflichten bestehen. Hosting/Analytics werden aktuell nicht eingesetzt. Bei Verwendung des E-Mail-Links oder WhatsApp gelten die Bedingungen der jeweiligen Anbieter.</p>
+          <p>Sie haben Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch. Kontakt: siehe Impressum. Aufsichtsbehörde: Landesbeauftragte für den Datenschutz Niedersachsen.</p>
+        </div>
+        <div>
+          <h3>Öffnungszeiten</h3>
+          <p>Mo–Fr 08:00–18:00 · Sa nach Vereinbarung<br>24/7 Notfall nach Verfügbarkeit</p>
+          <h3>Dokumente</h3>
+          <ul>
+            <li><a href="#">AGB (optional)</a></li>
+            <li><a href="#">Leistungsnachweis (PDF, optional)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        <small>© <span id="year"></span> Hausmeisterservice Ostfriesland · Alle Rechte vorbehalten.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // aktuelles Jahr im Footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
